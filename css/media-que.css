@@ -1,0 +1,273 @@
+@media only screen and (max-width: 1497px) {
+    .cols{
+        margin-bottom: 30px;
+        position: relative;
+        bottom: 40px;
+        
+    }
+
+}
+@media only screen and (max-width: 1251px) {
+    div.pic{
+        padding-top: 4em;
+    }
+    .text{
+        width: 70%;
+    height: 80%;
+    }
+    .cols h3{
+        font-size:1.2rem;
+    }
+    .cols p{
+        margin-top: 1.5rem;
+        font-size:.9rem;
+    }
+    .about-info li span{
+        font-size: 1rem;
+    }
+    .exp-text{
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (max-width: 1054px) {
+   div.text span{
+    font-size: 2rem;
+   }
+   .btn {
+    font-size: 1rem;
+}
+.main-row{
+    margin-top: 4em;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.about-details span{
+    font-size: 1.1rem;
+    
+}
+
+}
+@media only screen and (max-width: 990px) {
+    
+    div.pic{
+        height: 100%;
+    }
+    #about-me{
+        margin: auto;
+    }
+    .left{
+        width: 40%;
+    }
+    .middle{
+        width: 5%;
+    }
+    .right{
+        width: 40%;
+    }
+    .title-s{
+        flex-wrap: wrap;
+    }
+    .img-circle{
+        width: 120px;
+        height: 120px;
+    }
+    .about-sec{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    } 
+}
+@media only screen and (max-width: 907px) {
+    .about-sec{
+        display:block;
+    }
+    .left{
+        width: 60%;
+        margin: auto;
+        border-bottom: 1px solid white;
+    }
+    .right{
+        width: 60%;
+        margin: auto;
+    }
+    .img-or-content{
+        width: 400px;
+        display: flex;
+        align-items: center;
+    }
+    .opasity span{
+        font-size: 2.8rem;
+    }
+    .text-for-git{
+        font-size: 1rem;
+    }
+    div.pic{
+        padding-top: 3em;
+    }
+    .content-pic{
+        width: 70%;
+    }
+    
+}
+@media only screen and (max-width: 780px) {
+    div.pic{
+        padding-top: 5em;
+    }
+    .content-pic{
+        width: 80%;
+    }
+    ul.list-box{
+        display: none;
+    }
+    .menu-btn{
+       display: block;
+       text-align: end;
+       align-self: center;
+    }
+    .btn{
+        /* background: transparent; */
+        color: white;
+        font-size: .9rem;
+    }
+    .buttons{
+        width: 25em;
+    }
+
+    .toggle-menu{
+        /* border: 1px solid rgb(101, 101, 51); */
+        background: linear-gradient(to bottom, #0e0226f3 0%, #686b73 100%);
+        box-shadow: 0px 0px 6px 1px orange;
+        height: 28vh;
+        width: 100vw;
+        position:sticky;
+        top: 8vh;
+        right: 1%;
+        z-index: 2000;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .toggle-menu ul{
+        display: block;
+        text-align: center;
+        margin: auto;
+        line-height: 45px;
+    }
+   
+}
+@media only screen and (max-width: 720px) {
+   div.pic{
+    padding: 0%;
+   }
+    div.content{
+        flex-direction: column;
+        height: auto;  
+        align-items: center;
+        margin-top: 4em;
+    }
+    .text{
+        text-align: center;
+        width: 100%;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .about-sec{
+    padding-top: 3em;
+    }
+}
+@media only screen and (max-width: 588px){
+    div.buttons{
+        width: 100%;
+    }
+    div.text{
+        margin-bottom: -50px;
+        
+    }
+    div.pic{
+        justify-content: center;
+    }
+    div.text{
+        width: 100%;
+    }
+    .toggle-menu{
+        overflow-x: hidden;
+    }
+    html{
+        overflow-x: hidden;
+    }
+
+}
+@media only screen and (max-width: 503px){
+    div.text{
+        padding: 0px 0px 5em 0px;
+    }
+    .about-sec{
+        width: 100vw;
+    }
+    .left{
+        width: 100vw;
+    }
+    .right{
+        width: 90vw;
+    }
+    .img-or-content{
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+    }
+    footer{
+        font-size: .9rem;
+    }
+    
+}
+@media only screen and (max-width: 360px){
+    .about-sec{
+        padding-top: 5em;
+    }
+    h2.logo{
+        font-size: 1rem;
+    }
+    .text div span{
+        font-size: 1.5rem;
+    }
+    .buttons button{
+        font-size: .7rem;
+    }
+    div.text{
+        padding: 0%;
+    }
+    div.pic{
+        padding-top: 5em;
+        width: 100%;
+        height: 50vh;
+    }
+    .opasity span{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 240px){
+    div.text{
+        margin-top: 6em;
+    }
+    #projects-text{
+        font-size: 3rem;
+    }
+    #contacts-text{
+        font-size: 3rem;
+    }
+    #about-me-text{
+        font-size: 3rem;
+    }
+    footer{
+        height: 10vh;
+        text-align: center;
+        font-size: .7rem;
+    }
+    .opasity span{
+        font-size: 2rem;
+    }
+}
