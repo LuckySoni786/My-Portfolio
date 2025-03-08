@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1497px) {
+/* @media only screen and (max-width: 1497px) {
     .cols{
         margin-bottom: 30px;
         position: relative;
@@ -129,7 +129,6 @@
        align-self: center;
     }
     .btn{
-        /* background: transparent; */
         color: white;
         font-size: .9rem;
     }
@@ -138,7 +137,6 @@
     }
 
     .toggle-menu{
-        /* border: 1px solid rgb(101, 101, 51); */
         background: linear-gradient(to bottom, #0e0226f3 0%, #686b73 100%);
         box-shadow: 0px 0px 6px 1px orange;
         height: 28vh;
@@ -269,5 +267,180 @@
     }
     .opasity span{
         font-size: 2rem;
+    }
+} */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .common-padding{
+        padding: 0 50px;
+    }
+    .img-or-content{
+        grid-template-columns:repeat(1, 1fr);
+        gap: 0px;
+    }
+    .left{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .text span {
+        font-size: 2rem;
+    }
+    .opasity span{
+        font-size: 3rem;
+    }
+    .text-for-git{
+        font-size: 1rem;
+    }
+    .pic img{
+        width: 83%;
+    }
+    .about-sec{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 50px;
+    }
+    .btn {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        margin: 30px 0px 0px 8px;
+    }
+    .list-box {
+        display: none;
+    }
+    /* .hide{
+        display: flex;
+    } */
+    .menu-btn{
+        display: block;
+       
+    }
+    #about-me-text::after{
+        font-size: 6rem;
+    }
+    .exp-text{
+        margin-top:-40px;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 790px) {
+    .common-padding{
+        padding: 0 70px;
+    }
+    .img-or-content{
+        grid-template-columns:repeat(1, 1fr);
+        gap: 0px;
+    }
+    .left{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .text span {
+        font-size: 2rem;
+    }
+    .opasity span{
+        font-size: 3rem;
+    }
+    .text-for-git{
+        font-size: 1rem;
+    }
+    .pic img{
+        width: 83%;
+    }
+    .about-sec{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 65px 70px;
+    }
+    .btn {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        margin: 30px 0px 0px 8px;
+    }
+    .list-box {
+        gap: 70px;
+        display: flex;
+    }
+    .menu-btn{
+        display: none;
+       
+    }
+    #about-me-text::after{
+        font-size: 7rem;
+    }
+    .exp-text{
+        margin-top:-70px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .common-padding{
+        padding: 0 80px;
+    }
+    .img-or-content{
+        grid-template-columns:repeat(1, 1fr);
+        gap: 15px;
+    }
+    .left{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .text span {
+        font-size: 2.5rem;
+    }
+    .opasity span{
+        font-size: 3rem;
+    }
+    .text-for-git{
+        font-size: 1rem;
+    }
+    .pic img{
+        width: 75%;
+    }
+    .about-sec{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 65px 80px;
+        gap: 50px;
+    }
+    .btn {
+        padding: .6rem 1.2rem;
+        font-size: 1.2rem;
+        margin: 45px 0px 0px 8px;
+    }
+    .list-box {
+        gap: 100px;
+    }
+    #about-me-text::after{
+        font-size: 8rem;
+    }
+    .exp-text{
+        margin-top:-80px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .common-padding{
+        padding: 0 100px;
+    }
+    .img-or-content{
+        grid-template-columns:0fr 1fr;
+        gap: 40px;
+    }
+    .text span {
+        font-size: 2.9rem;
+    }
+    .opasity span{
+        font-size: 4rem;
+    }
+    .text-for-git{
+        font-size: 1.5rem;
+    }
+    .about-sec{
+        padding: 65px 100px;
+        gap: 80px;
     }
 }
