@@ -273,31 +273,40 @@
 
 
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {...} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     .common-padding{
-        padding: 0 50px;
+        padding: 0 20px;
+    }
+    .content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .text {
+       text-align: center;
     }
     .img-or-content{
-        grid-template-columns:repeat(1, 1fr);
-        gap: 0px;
+        grid-template-columns:repeat(0, 1fr);
+        gap: 40px;
+        margin-bottom: 20px;
     }
     .left{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        
     }
+    /* .text{
+        border: 1px solid green;
+        
+    } */
     .text span {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .opasity span{
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     .text-for-git{
         font-size: 1rem;
     }
     .pic img{
-        width: 83%;
+        width: 95%;
     }
     .about-sec{
         grid-template-columns: repeat(1, 1fr);
@@ -305,7 +314,7 @@
     }
     .btn {
         padding: .5rem 1rem;
-        font-size: 1rem;
+        font-size: .7rem;
         margin: 30px 0px 0px 8px;
     }
     .list-box {
@@ -324,7 +333,169 @@
     .exp-text{
         margin-top:-40px;
     }
+    button.btn.btn1{
+        margin: 0px;
+    }
+    button.btn.btn2{
+        margin: 0px;
+    }
+    .buttons {
+        /* border: 1px solid rgb(136, 33, 33); */
+        padding: 12px 0;
+        gap: 20px;
     
+    }
+   
+    .about-details span{
+        font-size: 1.1rem;
+        
+    }
+    .title-sk{
+        font-size: 1rem;
+    }
+
+    .exp-text{
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .about-info li span{
+        font-size:1rem;
+    }
+
+    .about-pro-text{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .about-pro-text span{
+        font-size: 1.3rem;
+    }
+    #contacts-text::after{
+        font-size: 6rem;
+        margin-top: -60px;
+    }
+    #projects-text::after{
+        font-size: 6rem;
+        margin-top: -60px;
+        
+    }
+    #about-me-text::after{
+    font-size: 6rem;
+    margin-top: -60px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+
+/* Mobile View (up to 600px) */
+@media only screen and (min-width: 600px) {
+    .common-padding{
+        padding: 0 50px;
+    }
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .img-or-content{
+        grid-template-columns:repeat(1, 1fr);
+        gap: 0px;
+        margin-bottom: 0px;
+    }
+    .left{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* .text{
+        border: 1px solid green;
+        
+    } */
+    .text span {
+        font-size: 1.6rem;
+    }
+    .opasity span{
+        font-size: 2.7rem;
+    }
+    .text-for-git{
+        font-size: 1rem;
+    }
+    .pic img{
+        width: 100%;
+    }
+    .about-sec{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px 50px;
+    }
+    .btn {
+        padding: .5rem 1rem;
+        font-size: .7rem;
+        margin: 30px 0px 0px 8px;
+    }
+    .list-box {
+        display: none;
+    }
+    /* .hide{
+        display: flex;
+    } */
+    .menu-btn{
+        display: block;
+       
+    }
+    #about-me-text::after{
+        font-size: 6rem;
+    }
+    .exp-text{
+        margin-top:-40px;
+    }
+    button.btn.btn1{
+        margin: 0px;
+    }
+    button.btn.btn2{
+        margin: 0px;
+    }
+    .buttons {
+        /* border: 1px solid rgb(136, 33, 33); */
+        padding: 12px 0;
+    
+    }
+    button.btn.btn2{
+        margin-top: 10px;
+    }
+    .about-details span{
+        font-size: 1.1rem;
+        
+    }
+    .title-sk{
+        font-size: 1rem;
+    }
+
+    .exp-text{
+        font-size: 1rem;
+    }
+
+    .about-info li span{
+        font-size:1rem;
+    }
+
+    .about-pro-text{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .about-pro-text span{
+        font-size: 1.3rem;
+    }
+    #contacts-text::after{
+        font-size: 7rem;
+        margin-top: -70px;
+    }
+    #projects-text::after{
+        font-size: 7rem;
+        margin-top: -70px;
+        
+    }
+    #about-me-text::after{
+    font-size: 7rem;
+    margin-top: -70px;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -374,6 +545,50 @@
     .exp-text{
         margin-top:-70px;
     }
+    .buttons {
+        padding-top: 30px;
+    
+    }
+    button.btn.btn2{
+        margin-top: 0px;
+    }
+    .about-details span{
+        font-size: 1.3rem;
+        
+    }
+    .title-sk{
+        font-size: 1.2rem;
+    }
+
+    .exp-text{
+        font-size: 1.2rem;
+    }
+
+    .about-info li span{
+        font-size:1.3rem;
+    }
+
+    .about-pro-text{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .about-pro-text span{
+        font-size: 1.5rem;
+    }
+    #contacts-text::after{
+        font-size: 8rem;
+        margin-top: -80px;
+    }
+    #projects-text::after{
+        font-size: 8rem;
+        margin-top: -80px;
+        
+    }
+    #about-me-text::after{
+    font-size: 8rem;
+    margin-top: -80px;
+}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -418,6 +633,10 @@
     }
     .exp-text{
         margin-top:-80px;
+    }
+    .buttons {
+        padding-top: 40px;
+    
     }
 }
 
