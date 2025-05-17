@@ -17,7 +17,9 @@ html {
 }
 
 body {
-    /* width: 100vw; */
+    /* width: min-content; */
+    width: fit-content;
+    position: relative;
     /* overflow-x: hidden; */
 }
 
@@ -40,6 +42,11 @@ nav {
 
 .hide {
     display: none;
+}
+
+
+.toggle-menu ul {
+    transition: opacity 0.5s ease;
 }
 
 .logo {

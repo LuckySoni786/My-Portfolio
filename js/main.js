@@ -20,6 +20,7 @@ console.log(menuBtn);
 console.log(menu_list);
 menuBtn.addEventListener('click',()=>{
     menu_list.classList.toggle('hide');
+
 })
 
 
