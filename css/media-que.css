@@ -310,7 +310,7 @@
     }
     .about-sec{
         grid-template-columns: repeat(1, 1fr);
-        padding: 50px 50px;
+        padding: 40px 20px;
     }
     .btn {
         padding: .5rem 1rem;
@@ -343,6 +343,7 @@
         /* border: 1px solid rgb(136, 33, 33); */
         padding: 12px 0;
         gap: 20px;
+        justify-content: center;
     
     }
    
@@ -454,11 +455,16 @@
     }
     .buttons {
         /* border: 1px solid rgb(136, 33, 33); */
-        padding: 12px 0;
+        padding: 15px 0;
+        gap: 14px;
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: start;
+        justify-content: start;
     
     }
     button.btn.btn2{
-        margin-top: 10px;
+        /* margin-top: 10px; */
     }
     .about-details span{
         font-size: 1.1rem;
@@ -547,7 +553,7 @@
     }
     .buttons {
         padding-top: 30px;
-    
+        gap: 20px;
     }
     button.btn.btn2{
         margin-top: 0px;
